@@ -1,0 +1,26 @@
+
+
+
+body {
+    background-image: url("http://lizziekoe.github.io/images/jaelfeet.jpg");
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 100px 0px 0px;
+  color: white;
+  font-style: italic;
+}
+
+.links {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px grey;
+}
+
+
+.logo img{
+  width: 100px;
+}
