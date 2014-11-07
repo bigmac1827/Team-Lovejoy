@@ -1,7 +1,6 @@
 
 
 
-<<<<<<< HEAD
 /*MOBILE FIRST! CSS PROPERTIES OUTSIDE OF MEDIA QUERIES
 ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO 
 INSIDE MEDIA QUERY*/
@@ -12,10 +11,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover cover;
     background-position: center center;
-=======
-body {
-    background-image: url("http://lizziekoe.github.io/images/jaelfeet.jpg");
->>>>>>> gh-pages
 }
 
 h1 {
@@ -24,7 +19,6 @@ h1 {
   margin: 100px 0px 0px;
   color: white;
   font-style: italic;
-<<<<<<< HEAD
   text-shadow: 2px 2px 8px gray;
 }
 
@@ -43,21 +37,11 @@ nav a {
   text-decoration: none;
   display: block;
   padding: .2em 0;
-=======
-}
-
-.links {
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  text-shadow: 2px 2px 8px grey;
->>>>>>> gh-pages
 }
 
 
 .logo img{
   width: 100px;
-<<<<<<< HEAD
 }
 
 @media (min-width: 900px) {
@@ -66,6 +50,4 @@ nav a {
     background-size: 100%;
     background-position: initial;
   }
-=======
->>>>>>> gh-pages
 }
