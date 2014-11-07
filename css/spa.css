@@ -1,23 +1,38 @@
+#container {
+  width: 90%;
+}
+
 body {
     background-image: url("http://lizziekoe.github.io/images/jaelfeet.jpg");
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    background-repeat: no-repeat;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 6.25em;
   text-align: center;
-  margin: 100px 0px 0px;
-  color: white;
+  margin: 6.25em 0em 0em;
+  color: blue;
   font-style: italic;
 }
 
 .links {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875em;
   text-shadow: 2px 2px 8px grey;
 }
 
-
 .logo img{
   width: 100px;
+}
+
+/*****************
+MEDIA QUERIES
+*****************/
+
+@media screen and (max-width: 480px) {
+
 }
