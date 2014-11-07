@@ -2,12 +2,17 @@
   width: 90%;
 }
 
+/*MOBILE FIRST! CSS PROPERTIES OUTSIDE OF MEDIA QUERIES
+ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO 
+INSIDE MEDIA QUERY*/
+
 body {
-    background-image: url("http://lizziekoe.github.io/images/jaelfeet.jpg");
-    width: 100%;
-    margin: 2%;
-    padding: 1%;
+
+    background-image: url("../img/phone-background.jpg");
+    height: 100%;
     background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position: center center;
 }
 
 h1 {
@@ -16,13 +21,24 @@ h1 {
   margin: 6.25em 0em 0em;
   color: blue;
   font-style: italic;
+  text-shadow: 2px 2px 8px gray;
 }
 
-.links {
+
+nav ul {
+  list-style-type: none;
+  list-style-position: center;
+  padding: 0;
+}
+
+nav a {
   color: white;
   text-align: center;
-  font-size: 1.875em;
-  text-shadow: 2px 2px 8px grey;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px gray;
+  text-decoration: none;
+  display: block;
+  padding: .2em 0;
 }
 
 .logo img{
@@ -33,6 +49,10 @@ h1 {
 MEDIA QUERIES
 *****************/
 
-@media screen and (max-width: 480px) {
-
+@media (min-width: 900px) {
+  body {
+    background-image: url("../img/main-background.jpg");  
+    background-size: 100%;
+    background-position: initial;
+  }
 }

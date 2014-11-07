@@ -26,5 +26,8 @@ h1 {
 
 .logo img{
   width: 100px;
-  background-color: blue;
+}
+
+@media and screen (min-width: 481px) {
+
 }
