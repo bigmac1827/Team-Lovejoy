@@ -6,7 +6,7 @@ ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO
 INSIDE MEDIA QUERY*/
 
 body {
-    background-image: url("./img/phone-background.jpg");
+    background-image: url("../img/phone-background.jpg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover cover;
@@ -46,7 +46,7 @@ nav a {
 
 @media (min-width: 900px) {
   body {
-    background-image: url("./img/main-background.jpg");  
+    background-image: url("../img/main-background.jpg");  
     background-size: 100%;
     background-position: initial;
   }
