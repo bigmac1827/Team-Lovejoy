@@ -1,0 +1,53 @@
+
+
+
+/*MOBILE FIRST! CSS PROPERTIES OUTSIDE OF MEDIA QUERIES
+ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO 
+INSIDE MEDIA QUERY*/
+
+body {
+    background-image: url("./img/phone-background.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position: center center;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 100px 0px 0px;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 8px gray;
+}
+
+
+nav ul {
+  list-style-type: none;
+  list-style-position: center;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px 8px gray;
+  text-decoration: none;
+  display: block;
+  padding: .2em 0;
+}
+
+
+.logo img{
+  width: 100px;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url("./img/main-background.jpg");  
+    background-size: 100%;
+    background-position: initial;
+  }
+}
