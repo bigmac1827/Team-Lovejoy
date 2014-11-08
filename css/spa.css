@@ -1,5 +1,6 @@
-
-
+#container {
+  width: 90%;
+}
 
 /*MOBILE FIRST! CSS PROPERTIES OUTSIDE OF MEDIA QUERIES
 ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO 
@@ -22,10 +23,10 @@ h1 {
   text-shadow: 2px 2px 8px gray;
 }
 
-
 nav ul {
   list-style-type: none;
-  list-style-position: center;
+  /*list-style-position: center;*/
+  text-align: center;
   padding: 0;
 }
 
@@ -39,15 +40,44 @@ nav a {
   padding: .2em 0;
 }
 
-
 .logo img{
   width: 100px;
 }
 
-@media (min-width: 900px) {
+footer {
+  font-size: 12pt;
+  color: white;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+/*****************
+MEDIA QUERIES
+*****************/
+
+@media screen and (min-width: 900px) {
   body {
     background-image: url("../img/main-background.jpg");  
     background-size: 100%;
     background-position: initial;
+  }
+
+  nav li {
+    width: 225px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 3em;
+  } 
+
+  nav li {
+    display: inline-block;
   }
 }
