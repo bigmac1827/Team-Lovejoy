@@ -130,6 +130,16 @@ REVIEW PAGE
 }
 
 /*****************
+SCHEDULE PAGE
+*****************/
+
+.calendar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*****************
 MEDIA QUERIES
 *****************/
 
