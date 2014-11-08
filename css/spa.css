@@ -64,8 +64,6 @@ nav a {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   font-size: 12pt;
   color: white;
   text-shadow: 2px 2px 8px black;
