@@ -43,15 +43,27 @@ nav a {
   text-decoration: none;
   display: block;
   padding: .2em 0;
+
 }
 
 .logo img{
   width: 100px;
 }
 
+.bookNow a {
+  font-size: 30px;
+  background-color: white;
+  text-decoration: none;
+  color: gray;
+  border-radius: 15px;
+  text-align: center;
+  width: 25%;
+  display: block;
+  margin: 17.5% auto;
+  padding: 1em;
+}
+
 footer {
-  position: absolute;
-  bottom: 0;
   font-size: 12pt;
   color: white;
   text-shadow: 2px 2px 8px black;
