@@ -130,6 +130,20 @@ REVIEW PAGE
   padding-top: 50px;
 }
 
+.stars {
+  background-color: white;
+  border-radius: 5px;
+}
+/*****************
+SCHEDULE PAGE
+*****************/
+
+.calendar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*****************
 MEDIA QUERIES
 *****************/
