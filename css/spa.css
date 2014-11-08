@@ -45,8 +45,11 @@ nav a {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   font-size: 12pt;
   color: white;
+  width: 100%;
   text-align: center;
   clear: both;
   padding-top: 50px;
