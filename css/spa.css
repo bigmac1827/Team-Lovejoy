@@ -113,7 +113,10 @@ REVIEW PAGE
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 22em
+  width: 22em;
+  background-color: gray;
+  margin-top: 3em;
+  border-radius: 5px;
 }
 
 #reviewfooter {
