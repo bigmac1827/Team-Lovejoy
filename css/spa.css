@@ -7,7 +7,6 @@ ARE UNIVERSAL, FOR SCREEN SIZES OVER 900 PIXELS GO
 INSIDE MEDIA QUERY*/
 
 body {
-
     background-image: url("../img/phone-background.jpg");
     height: 100%;
     background-repeat: no-repeat;
@@ -16,18 +15,18 @@ body {
 }
 
 h1 {
-  font-size: 6.25em;
+  font-size: 100px;
   text-align: center;
-  margin: 6.25em 0em 0em;
-  color: blue;
+  margin: 100px 0px 0px;
+  color: white;
   font-style: italic;
   text-shadow: 2px 2px 8px gray;
 }
 
-
 nav ul {
   list-style-type: none;
-  list-style-position: center;
+  /*list-style-position: center;*/
+  text-align: center;
   padding: 0;
 }
 
@@ -45,14 +44,40 @@ nav a {
   width: 100px;
 }
 
+footer {
+  font-size: 12pt;
+  color: white;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
 /*****************
 MEDIA QUERIES
 *****************/
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   body {
     background-image: url("../img/main-background.jpg");  
     background-size: 100%;
     background-position: initial;
+  }
+
+  nav li {
+    width: 225px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 3em;
+  } 
+
+  nav li {
+    display: inline-block;
   }
 }
